@@ -1,0 +1,51 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h2{
+    color:white;
+    font-family: verdana;
+}
+
+#acc{
+    height:100%;
+    width:35em;
+    background-color:rgb(19, 0, 81);
+    display:flex;
+    flex-direction: column;
+    padding:2em;
+    box-sizing: border-box;
+}
+
+#acc input{
+    width:15em;
+    margin-top:1rem;
+    padding:0.8rem;
+    border-radius:0.5rem;
+    background-color:white;
+    border:1px solid black;
+    color:rgb(25, 35, 43);
+}
+
+#acc input::placeholder{
+    font-family:verdana;
+    color:rgb(25, 35, 43);
+}
+
+#acc button{
+    width:8em;
+    margin-top:1rem;
+    cursor:pointer;
+    padding:0.7rem;
+    color:black;
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    border:1px solid black;
+    transition:0.2s;
+}
+
+#acc button:hover{
+    color:white;
+    background-color:rgb(10, 0, 41) ;
+}
